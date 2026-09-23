@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Hedvig Letters Sans";
+    src: url(../assets/fonts/HeadvigLettersSans/HedvigLettersSans-Regular-BF6566a7fa54c57.otf);
+    font-weight: 400 600;
+    font-style: normal;
+}
+h2{
+    font-size: 30px;
+    font-family: "Hedvig Letters Sans";
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/*Instrument sans abaixo*/
+
+@font-face {
+    font-family: "Instrument Sans";
+    src: url(../assets/fonts/InstrumentSans/InstrumentSans[wdth\,wght].ttf);
+    font-style: normal;
+    font-weight: 400 600;
+}
+@font-face {
+    font-family: "Instrument Sans";
+    src: url(../assets/fonts/InstrumentSans/InstrumentSans-Italic[wdth\,wght].ttf);
+    font-style: italic;
+    font-weight: 400 600;
+}
+p{
+    font-size: 22px;
+    font-family: "Instrument Sans";
+    font-weight: 500;
+    font-style: normal;
+}
+h3{
+    font-size: 15px;
+    font-family: "Instrument Sans";
+    font-weight: 500;
+    font-style: normal;
+}
+
