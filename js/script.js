@@ -37,15 +37,27 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 100);
     }
 
-
-   
-    const h2 = document.querySelector(".container-textos h2");
-    if (h2) {
-        prepararEAnimarTexto(h2);
+    const footerMobile = document.querySelector(".footer-mobile");
+    if (footerMobile) {
+        setTimeout(() => {
+            footerMobile.classList.add("animar-entrada");
+        }, 100);
     }
+
+    const containersEstrelas = document.querySelectorAll(".container-estrelas");
+    setTimeout(() => {
+        containersEstrelas.forEach(container => {
+            container.classList.add("animar-entrada");
+        });
+    }, 100);
+
+    const h2Elements = document.querySelectorAll(".container-textos h2, .container-texto-extra h2");
+    h2Elements.forEach(h2 => {
+        prepararEAnimarTexto(h2);
+    });
 });
 
-/*animação texto do container textos*/
+
 
 function prepararEAnimarTexto(h2) {
     let delayMs = 300; 
